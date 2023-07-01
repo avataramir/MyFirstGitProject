@@ -7,6 +7,17 @@
     android:background="@color/design_default_color_primary_dark"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="335dp"
+        android:layout_height="82dp"
+        android:layout_above="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="141dp"
+        android:gravity="center"
+        android:text="Мой первый гитхаб проект"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button"
